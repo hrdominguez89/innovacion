@@ -1,0 +1,15 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+/*
+|--------------------------------------------------------------------------
+| Configuración para conexion LDAP con el Active Directory
+|-------------------------------------------------------------------------- 
+*/
+$config['ldap_config'] = array(
+    'dominio'   => '',
+    'usuario'   => '',
+    'password'  => '',
+    'adserver'  => '',
+    'base_dn'   => '',
+    );
